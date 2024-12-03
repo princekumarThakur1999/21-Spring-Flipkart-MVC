@@ -1,18 +1,18 @@
-package com.flipkart.controller;
+package com.flipkart.request;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class UserRegister {
+public class UserRegisterRequest {
 	
 	private int id;
 	private String name;
 	private int marks;
-	public UserRegister() {
+	public UserRegisterRequest() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public UserRegister(int id, String name, int marks) {
+	public UserRegisterRequest(int id, String name, int marks) {
 		super();
 		this.id = id;
 		this.name = name;
